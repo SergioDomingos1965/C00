@@ -10,4 +10,7 @@
             void add_contact();
             void search_contact();
     }; 
+
+
+    
 #endif 
