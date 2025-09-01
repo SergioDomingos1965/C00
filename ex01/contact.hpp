@@ -12,6 +12,9 @@ class  Contact
         std::string darkes_secret;
     public:
         void set_contact(std::string name, std::string l_name, std::string nick_name, std::string phone, std::string secret);
-        int get_contact(int index);
+        void get_contact(void);
+        std::string get_first_name();
+        std::string get_last_name();
+        std::string get_nick_name();
 };
 #endif
